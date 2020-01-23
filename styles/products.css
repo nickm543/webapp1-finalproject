@@ -1,0 +1,73 @@
+* {
+    font-family: 'Economica', sans-serif;
+}
+
+.product_list {
+    position: relative;
+    z-index: -1;
+    background-color: white;
+    border: 2px solid #64afed;
+    border-radius: 20px;
+    opacity: 0.9;
+    width: 60vw;
+    height: 870px;
+    margin: 40px auto;
+}
+
+.product {
+    float: left;
+}
+
+.product img {
+    float: left;
+    width: 20%;
+    margin: 30px 10px 0 30px;
+    border: 2px solid #64afed;
+    border-radius: 10px;
+}
+
+.product h2 {
+    display: inline-block;
+    vertical-align: top;
+    margin: 30px 0 0;
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.product p {
+    font-size: 120%;
+    margin-left: 10px;
+}
+
+.product h3 {
+    font-size: 30px;
+    font-weight: normal;
+    color: #576775;
+}
+
+button {
+    margin-top: 10px;
+    padding: 5px;
+    font-size: 120%;
+    border: 2px solid #64afed;
+    border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    .product_list {
+        width: 100vw;
+        height: 1080px;
+    }
+
+    .product img {
+        width: 30%;
+    }
+
+    button {
+        margin-left: 120px;
+    }
+
+    footer {
+        color: white;
+    }
+}

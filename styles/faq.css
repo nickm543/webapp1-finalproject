@@ -1,0 +1,56 @@
+* {
+    font-family: 'Economica', sans-serif;
+}
+
+html {
+    height: unset;
+}
+
+header .popout_menu {
+    position: relative;
+    z-index: auto;
+}
+
+body h3 {
+    color: white;
+    font-size: 210%;
+    font-weight: normal;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.faq_card {
+    font-size: 120%;
+    background-color: white;
+    border: 2px solid #64afed;
+    border-radius: 20px;
+    width: 90vw;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+.faq_card h2 {
+    padding-top: 5px;
+}
+
+.faq_card p {
+    padding: 20px;
+}
+
+.faq_card a {
+    color: black;
+    background-color: white;
+    border: 2px solid #64afed;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+footer {
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .faq_card {
+        width: 80vw;
+    }
+}

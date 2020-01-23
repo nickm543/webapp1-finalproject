@@ -1,0 +1,73 @@
+* {
+    font-family: 'Economica', sans-serif;
+}
+
+html {
+    height: unset;
+}
+
+.contact_card {
+    background-color: white;
+    opacity: 0.9;
+    text-align: center;
+    width: 600px;
+    height: 600px;
+    margin: 60px auto;
+    border-radius: 20px;
+    border: 2px solid #64afed;
+}
+
+.contact_card h2 {
+    font-weight: normal;
+    font-size: 35px;
+    margin-top: 20px;
+}
+
+.contact_card p {
+    font-size: 130%;
+}
+
+form {
+    margin-top: 30px;
+}
+
+label {
+    font-size: 22px;
+}
+
+input {
+    padding: 10px;
+    margin: 5px;
+    width: 200px;
+    border: 1px solid #64afed;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 1px #64afed;
+    font-size: 20px;
+}
+
+input[type="submit"] {
+    width: 110px;
+}
+
+input[type="submit"]:hover {
+    color: #64afed;
+}
+
+.contact_info {
+    margin: 20px auto;
+    border-top: 2px solid #64afed;
+    width: 95%;
+}
+
+.contact_info ul {
+    margin-top: 20px;
+    font-size: 20px;
+    list-style-type: none;
+}
+
+@media (max-width: 768px) {
+    .contact_card {
+        width: 90%;
+        height: 90%;
+    }
+}

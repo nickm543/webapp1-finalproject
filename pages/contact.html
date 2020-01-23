@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Störbot</title>
+        <link rel="stylesheet" href="../styles/main.css">
+        <link rel="stylesheet" href="../styles/contact.css">
+        <link href="https://fonts.googleapis.com/css?family=Economica&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/32a30c9838.js" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+        <script src="../scripts/popout.js"></script>
+        <script src="../scripts/contact.js"></script>
+    </head>
+    <header>
+        <i class="fas fa-bars"></i>
+        <a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+        <p class="storbot"><a href="../index.html">STÖRBOT</a></p>
+        <div class="popout_menu">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="payment_plans.html">Payment Plans</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="faq.html">FAQs</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+    <body>
+        <div class="contact_card">
+            <h2>Contact Us</h2>
+            <form action="submit.html">
+                <label for="firstname">First Name:</label><br>
+                <input type="text" name="firstname" id="firstname" required><br>
+                <label for="lastname">Last Name:</label><br>
+                <input type="text" name="lastname" id="lastname" required><br>
+                <label for="email">Email:</label><br>
+                <input type="email" name="email" id="email" required><br>
+                <label for="phone">Phone:</label><br>
+                <input type="phone" name="phone" id="phone" required><br>
+                <input type="submit">
+            </form>
+            <div class="contact_info">
+                <ul>
+                    <li>Our Phone: 1-800-123-456</li>
+                    <li>Our Email: <a href="mailto:contact@storbot.com">contact@storbot.com</a></li>
+                    <li>Address: 123 Example Street, State, 12345 US</li>
+                </ul>
+            </div>
+        </div>
+    </body>
+    <footer>
+        &copy; 2019 Nick Medema
+    </footer>
+</html>
